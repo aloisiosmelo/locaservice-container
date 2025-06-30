@@ -6966,7 +6966,7 @@ fieldset:disabled .btn {
 .offcanvas-sm {
   --bs-offcanvas-zindex: 1045;
   --bs-offcanvas-width: 400px;
-  --bs-offcanvas-height: 30vh;
+  --bs-offcanvas-height: 100vh;
   --bs-offcanvas-padding-x: 1rem;
   --bs-offcanvas-padding-y: 1rem;
   --bs-offcanvas-color: ;
@@ -12808,7 +12808,7 @@ header.masthead {
 }
 
 #contato {
-  background-image: url("../assets/img/caixa-de-conteineres-industriais-para-negocios-logisticos-de-importacao-e-exportacao.jpg");
+  background-image: url("../assets/img/containers.jpeg");
   background-size: cover;
   backdrop-filter: blur(4px);
   padding: 5%;
@@ -12931,6 +12931,36 @@ body {
   font-size: 1.2rem;
 }
 
-.w-50-vw {
-  width: 50vw !important;
+.bt-contact {
+  width: 70% !important;
+}
+
+@media (min-width: 992px) {
+  .bt-contact {
+    width: 60% !important;
+  }
+}
+
+
+.gallery-button {
+  /* width: 30px; */
+  /* height: 40px; */
+  padding-top: 30px;
+  padding-right: 5%;
+  padding-bottom: 15px;
+  padding-left: 5%;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.offcanvas-body {
+  background-color: #ececec;
+}
+
+img.card-img-top {
+  max-height: 250px;
 }
